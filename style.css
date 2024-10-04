@@ -1,12 +1,12 @@
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 2;
+  background-color: rgb(178, 196, 255);
 }
 
 h1, h2, h3 {
-  margin: 1em 0;
+  margin: 1em 2;
 }
 
 p {
@@ -15,7 +15,7 @@ p {
 
 
 .header {
-  background-color: #4ec57f;
+  background-color: #ffffff;
   padding: 1em;
   text-align: center;
 }
@@ -23,6 +23,7 @@ p {
 
 .intro {
   padding: 2em;
+ 
 }
 
 
@@ -30,6 +31,8 @@ p {
   display: flex;
   justify-content: space-around;
   padding: 2em;
+  border: 1px solid #000000;
+
 }
 
 .flex-container {
@@ -37,17 +40,37 @@ p {
   flex-wrap: wrap;
 }
 
-.flex-item {
+.flex-item1 {
+  background-color: #ffffff81;
   width: 30%;
   margin: 1em;
   padding: 1em;
-  border: 1px solid #0e0ba7;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.flex-item2 {
+  background-color: #ffffffa9;
+  width: 30%;
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.flex-item3 {
+  background-color: #ffffff;
+  width: 30%;
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #000000;
   text-align: center;
 }
 
 
 .grid-section {
   padding: 2em;
+
 }
 
 .grid-container {
@@ -59,38 +82,44 @@ p {
 }
 
 .grid-item1 {
-  background-color: #ff5151;
+  background-color: #a251ff;
   padding: 1em;
-  
+  border: 1px solid #000000;
 }
 
 .grid-item2 {
-  background-color: #ffc851;
+  background-color: #a251ff;
   padding: 1em;
+  border: 1px solid #000000;
 }
 
 .grid-item3{
-  background-color: #51ff51;
+  background-color:#a251ff;
   padding: 1em;
+  border: 1px solid #000000;
 }
 
 .grid-item4 {
-  background-color: #51dcff;
+  background-color: #a251ff;
   padding: 1em;
+  border: 1px solid #000000;
 }
 
 .grid-item5 {
-  background-color: #7151ff;
+  background-color: #a251ff;
   padding: 1em;
+  border: 1px solid #000000;
 }
 
 .grid-item6 {
-  background-color: #eb51ff;
+  background-color: #a251ff;
   padding: 1em;
+  border: 1px solid #000000;
 }
 
 .positioning-section {
   padding: 2em;
+
 }
 
 .relative-container {
@@ -100,10 +129,12 @@ p {
 .absolute-box {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 70%;
   transform: translate(-50%, -50%);
-  background-color: #ff7598;
+  background-color: rgb(224, 219, 255);
   padding: 1em;
+  border: 1px solid #000000;
+  
 }
 
 
